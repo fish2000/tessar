@@ -1,0 +1,33 @@
+                
+                    <div class="tabbable">
+                        <ul class="nav nav-tabs cleansed-tabs"
+                            id="cleansed-{{ docslug }}-tabset">
+                            <li><a data-toggle='tab'
+                                class="cleansed active"
+                                href="#cleansed-{{ docslug }}-raw">
+                                    <small><i class="icon-chevron-left"></i><i class="icon-chevron-right"></i></small>
+                                    View HTML Source</a></li>
+                            <li><a data-toggle='tab'
+                                class="cleansed"
+                                href="#cleansed-{{ docslug }}-rendered">
+                                    <i class="icon-indent-left"></i>
+                                    <i class="icon-text-width"></i>
+                                    Preview Text Styles</a></li>
+                        </ul>
+                        
+                        <div class="tab-content">
+                            <div class="tab-pane active"
+                                id="cleansed-{{ docslug }}-raw">
+<pre class="pre-scrollable oxygen_mono" data-language="HTML">
+{{ raw }}
+</pre>
+                            </div>
+                            <div class="tab-pane"
+                                id="cleansed-{{ docslug }}-rendered">
+<div class="well rendered-content">
+{{ rendered }}
+</div>
+                            </div>
+                        </div>
+                    </div>
+                

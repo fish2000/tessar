@@ -1,0 +1,24 @@
+#
+# MTV's Proc My File
+#
+
+# web server
+#web:            /Users/fish/Praxa/TESSAR/bin/gunicorn_django -c /Users/fish/Praxa/TESSAR/etc/gunicorn-devel.py
+web:            /Users/fish/Praxa/TESSAR/bin/uwsgi --ini /Users/fish/Praxa/TESSAR/etc/uwsgi.ini
+
+# memcached, redis, solr
+solr:           cd /Users/fish/Praxa/TESSAR/local/lib/solr/example/ && java -jar start.jar
+memcached:      memcached -s /Users/fish/Praxa/TESSAR/var/run/memcached.sock
+#redis:          redis-server /Users/fish/Praxa/TESSAR/etc/redis.conf
+tika:           java -server -jar /Users/fish/Praxa/TESSAR/java/tika-server/target/tika-server-1.4-SNAPSHOT.jar
+reindexer:      sleep 10 && /Users/fish/Praxa/TESSAR/bin/python /Users/fish/Praxa/TESSAR/manage.py rebuild_index --settings=tessar.settings --noinput && read
+
+# web server reloader
+#webreloader:    /Users/fish/Praxa/TESSAR/bin/watchmedo shell-command --patterns="*.py;*.txt;*.html;*.css;*.less;*.js;*.coffee" -R --command='kill -HUP $(cat /Users/fish/Praxa/TESSAR/var/run/gunicorn.pid)' /Users/fish/Praxa/TESSAR/instance/
+
+# django signalqueue worker
+#worker:         /Users/fish/Praxa/TESSAR/bin/python /Users/fish/Praxa/TESSAR/instance/manage.py runqueueserver -x --settings=settings --queuename=default localhost:11231
+
+# postgresql w/ local data layout
+#postgresql:     postmaster -D /Users/fish/Praxa/TESSAR/var/db/postgresql
+

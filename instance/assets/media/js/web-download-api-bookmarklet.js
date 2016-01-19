@@ -1,0 +1,2 @@
+// javascript:(function(){location.href=%22http://localhost:8000/ffffound/url/%22+encodeURIComponent(location.href);})();
+(function(){location.href="http://localhost:8000/ffffound/url/"+encodeURIComponent(location.href);})();

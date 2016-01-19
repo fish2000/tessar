@@ -1,0 +1,8 @@
+TM_PYTHON = "/Users/fish/Praxa/TESSAR/bin/python"
+TM_PYTHONPATH = "/Users/fish/Praxa/TESSAR/local/lib/python2.7/site-packages:/Users/fish/Praxa/TESSAR/instance/TESSAR:/Users/fish/Praxa/TESSAR/instance:/Users/fish/Praxa/TESSAR/lib/python2.7/site-packages:/Users/fish/Praxa/TESSAR:."
+PYTHONPATH = "/Users/fish/Praxa/TESSAR/local/lib/python2.7/site-packages:/Users/fish/Praxa/TESSAR/instance/TESSAR:/Users/fish/Praxa/TESSAR/instance:/Users/fish/Praxa/TESSAR/lib/python2.7/site-packages:/Users/fish/Praxa/TESSAR:."
+DJANGO_SETTINGS_MODULE = "tessar.settings"
+
+[*.*]
+windowTitle = "TESSAR • $TM_DISPLAYNAME"
+

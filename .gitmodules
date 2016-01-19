@@ -1,0 +1,4 @@
+[submodule "java/lire-solr"]
+	path = java/lire-solr
+	url = git@bitbucket.org:dermotte/liresolr.git
+    ignore = dirty

@@ -1,0 +1,78 @@
+Sep 06, 2014 1:47:06 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/parsers
+Sep 06, 2014 1:47:06 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/mime-types)
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@24c1b2d28 pairs: {GET /parsers HTTP/1.1: null}{Content-Type: text/plain}{Accept: text/plain}{User-Agent: Apache CXF 2.7.8}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}
+Sep 06, 2014 1:47:06 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream used: http://localhost:9998/parsers
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@7dc19a705 pairs: {null: HTTP/1.1 200 OK}{Content-Type: text/plain}{Date: Sat, 06 Sep 2014 08:47:06 GMT}{Content-Length: 1911}{Server: Jetty(8.1.14.v20131031)}
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/parsers/details
+Sep 06, 2014 1:47:06 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/parsers)
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@37313c658 pairs: {GET /parsers/details HTTP/1.1: null}{Content-Type: text/plain}{Accept: text/plain}{User-Agent: Apache CXF 2.7.8}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}
+Sep 06, 2014 1:47:06 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream used: http://localhost:9998/parsers/details
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@465232e95 pairs: {null: HTTP/1.1 200 OK}{Content-Type: text/plain}{Date: Sat, 06 Sep 2014 08:47:06 GMT}{Content-Length: 8845}{Server: Jetty(8.1.14.v20131031)}
+Sep 06, 2014 1:47:06 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/parsers
+Sep 06, 2014 1:47:06 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/parsers/details)
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@5e3f8618 pairs: {GET /parsers HTTP/1.1: null}{Content-Type: text/html}{Accept: text/html}{User-Agent: Apache CXF 2.7.8}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}
+Sep 06, 2014 1:47:06 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream used: http://localhost:9998/parsers
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2fb0623e5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: text/html}{Date: Sat, 06 Sep 2014 08:47:06 GMT}{Content-Length: 4527}{Server: Jetty(8.1.14.v20131031)}
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/parsers/details
+Sep 06, 2014 1:47:06 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/parsers)
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@415b0b498 pairs: {GET /parsers/details HTTP/1.1: null}{Content-Type: text/html}{Accept: text/html}{User-Agent: Apache CXF 2.7.8}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}
+Sep 06, 2014 1:47:06 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream used: http://localhost:9998/parsers/details
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@6d5620ce5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: text/html}{Date: Sat, 06 Sep 2014 08:47:06 GMT}{Content-Length: 11683}{Server: Jetty(8.1.14.v20131031)}
+Sep 06, 2014 1:47:06 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:9998/
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/parsers
+Sep 06, 2014 1:47:06 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/parsers/details)
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@7068e6648 pairs: {GET /parsers HTTP/1.1: null}{Content-Type: application/json}{Accept: application/json}{User-Agent: Apache CXF 2.7.8}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}
+Sep 06, 2014 1:47:06 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream used: http://localhost:9998/parsers
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@60db1c0e5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json}{Date: Sat, 06 Sep 2014 08:47:06 GMT}{Content-Length: 3929}{Server: Jetty(8.1.14.v20131031)}
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: ProxySelector Request for http://localhost:9998/parsers/details
+Sep 06, 2014 1:47:06 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream retrieved from the cache, sun.net.www.http.HttpClient(http://localhost:9998/parsers)
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection plainConnect0
+FINEST: Proxy used: DIRECT
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@41f69e848 pairs: {GET /parsers/details HTTP/1.1: null}{Content-Type: application/json}{Accept: application/json}{User-Agent: Apache CXF 2.7.8}{Cache-Control: no-cache}{Pragma: no-cache}{Host: localhost:9998}{Connection: keep-alive}
+Sep 06, 2014 1:47:06 AM sun.net.www.http.HttpClient logFinest
+FINEST: KeepAlive stream used: http://localhost:9998/parsers/details
+Sep 06, 2014 1:47:06 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@7975d1d85 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json}{Date: Sat, 06 Sep 2014 08:47:06 GMT}{Content-Length: 9767}{Server: Jetty(8.1.14.v20131031)}

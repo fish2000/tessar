@@ -1,0 +1,85 @@
+{% extends "admin/change_list.html" %}
+
+{% block extrahead %}
+    {{ block.super }}
+    <script>
+    $(document).ready(function() {
+        $(".brand .form-inline .btn")
+            .removeClass('btn-primary')
+            .addClass('btn-info');
+        
+        $(".modal")
+            .on('hidden', function (e) {
+                history.pushState(null, null,
+                    location.href.split(location.hash)[0]);
+            });
+    });
+    </script>
+{% endblock extrahead %}
+
+{% block content %}
+    {{ block.super }}
+    {% verbatim handlebars %}
+    
+        <!-- HANDLEBARS -->
+        <script class="template modal-body-template"
+            id="modal-extracted-text"
+            type="text/x-handlebars-template">
+            
+            <div class="extracted-text-morsel">
+                <p id="slug-{{ docslug }}">
+                    {{ text }}
+                </p>
+            </div>
+            
+        </script>
+        
+        
+        <script class="template modal-body-template"
+            id="modal-cleansed-html"
+            type="text/x-handlebars-template">
+            
+            <div class="tabbable">
+                <ul class="nav nav-tabs cleansed-tabs"
+                    id="cleansed-{{ docslug }}-tabset">
+                    <li><a data-toggle='tab'
+                        class="cleansed active"
+                        href="#cleansed-{{ docslug }}-raw">
+                            <small>
+                                <i class="icon-chevron-left"></i>
+                                <i class="icon-chevron-right"></i>
+                            </small>
+                            View HTML Source
+                        </a></li>
+                    <li><a data-toggle='tab'
+                        class="cleansed"
+                        href="#cleansed-{{ docslug }}-rendered">
+                            <i class="icon-indent-left"></i>
+                            <i class="icon-text-width"></i>
+                            Preview Text Styles
+                        </a></li>
+                </ul>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active"
+                        id="cleansed-{{ docslug }}-raw">
+
+<pre class="pre-scrollable oxygen_mono"><code class="language-markup">
+{{ rendered }}
+</code></pre>
+
+                    </div>
+                    <div class="tab-pane"
+                        id="cleansed-{{ docslug }}-rendered">
+
+<div class="well rendered-content">
+{{{ rendered }}}
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </script>
+        
+    {% endverbatim handlebars %}
+{% endblock content %}
