@@ -1,4 +1,6 @@
 [submodule "java/lire-solr"]
 	path = java/lire-solr
-	url = git@bitbucket.org:dermotte/liresolr.git
-    ignore = dirty
+	url = git@github.com:fish2000/liresolr.git
+[submodule "java/tika-HEAD"]
+	path = java/tika-HEAD
+	url = git@github.com:apache/tika.git
